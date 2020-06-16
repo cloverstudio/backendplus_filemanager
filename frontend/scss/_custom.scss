@@ -1,0 +1,166 @@
+// Here you can add other styles
+
+.login{
+    .header{
+        height: 15vh;
+    }
+
+    .content{
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .login-form{
+            background-color: #fff;
+            padding: 25px;
+            border-radius: 15px;
+        }
+    }
+
+    .footer{
+        height: 15vh;
+    }
+}
+
+.toast-container{
+
+    z-index: 2000;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+
+    .toast{
+
+        min-width: 250px;
+
+        &.info{
+            .toast-body{
+                background-color: #f1f1f1;
+            }
+        }
+
+        &.error{
+
+            .toast-header{
+                color: #fff;
+                background-color: #900;
+            }
+
+            .toast-body{
+                background-color: #fff1f1;
+                color: #990000;
+            }
+
+        }
+
+        .mr-auto{
+            margin-left: 10px;
+        }
+
+    }
+
+}
+
+.layout-top.ant-layout{
+    min-height: 100vh;
+}
+
+.sidebar{
+    
+    .logo{
+        height: 64px;
+    }
+}
+
+.breadcrumb{
+    margin-left: 20px;
+    margin-bottom: -25px;
+    margin-top: 25px;
+}
+
+button#add-button{
+    width:48px;
+    height: 48px;
+    position: absolute;
+    right: 50px;
+    top:85px
+}
+
+ul.normal-list{
+
+    margin-left: 0px;
+    padding-left: 0px;
+
+    li{
+        list-style: none;
+    }
+}
+
+ul.image-list{
+    margin-left: 0px;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+    li{
+        list-style-type: none;
+        display: inline-block;
+        list-style: none;
+        margin-left: 5px;
+        margin-bottom: 5px;
+
+        img{
+            width: 64px;
+            border-radius: 5px;
+        }
+    }
+}
+
+.fileedit-col{
+    
+    padding:10px;
+    line-height: 25px;
+
+    .fileedit-checkbox{
+
+        input{
+            margin-right: 5px;
+        }
+
+        label {
+            line-height: 25px;
+        }
+    }    
+}
+
+.document-menu{
+    height: calc( 100vh - 150px);
+    overflow: auto;
+}
+
+.document-content{
+    
+    height: calc( 100vh - 150px);
+    overflow: auto;
+    border-left: 1px solid #eef;
+
+    .document-container{
+        padding-left: 15px;
+    }
+
+    .param-contaier{
+
+    }
+
+    .response-container{
+        margin-top:10px;
+        margin-bottom:10px;
+
+        pre{
+           max-height: 250px;
+           overflow: auto; 
+        }
+    }
+
+}

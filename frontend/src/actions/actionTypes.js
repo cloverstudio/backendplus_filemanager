@@ -1,0 +1,35 @@
+export const LOGIN_SUCCEED = "LOGIN_SUCCEED";
+export const UPDATE_USER = "UPDATE_USER";
+
+export const TOAST_INFO_SHOW = "TOAST_INFO_SHOW";
+export const TOAST_ERROR_SHOW = "TOAST_INFO_ERROR";
+export const TOAST_HIDE = "TOAST_HIDE";
+
+export const LOADING_SHOW = "LOADING_SHOW";
+export const LOADING_HIDE = "LOADING_HIDE";
+
+export const MODAL_SHOW = "MODAL_SHOW";
+export const MODAL_HIDE = "MODAL_HIDE";
+
+export const SIDEBAR_SHOW = "SIDEBAR_SHOW";
+export const SIDEBAR_HIDE = "SIDEBAR_HIDE";
+
+export const USER_LOAD_LIST = "USER_LOAD_LIST";
+export const USER_LOAD_DETAIL = "USER_LOAD_DETAIL";
+
+export const TAG_LOAD_LIST = "TAG_LOAD_LIST";
+export const TAG_LOAD_DETAIL = "TAG_LOAD_DETAIL";
+
+export const FILE_LOAD_LIST = "FILE_LOAD_LIST";
+export const FILE_LOAD_DETAIL = "FILE_LOAD_DETAIL";
+
+export const FILE_REFER_TAG_LOAD_LIST = "FILE_REFER_TAG_LOAD_LIST";
+
+export const PHOTO_LOAD_LIST = "PHOTO_LOAD_LIST";
+export const PHOTO_LOAD_DETAIL = "PHOTO_LOAD_DETAIL";
+
+export const PHOTO_REFER_TAG_LOAD_LIST = "PHOTO_REFER_TAG_LOAD_LIST";
+
+export const MASTER_LOAD_LIST = "MASTER_LOAD_LIST";
+
+export const SIDEBAR_HIGHLIGHT = "SIDEBAR_HIGHLIGHT";
